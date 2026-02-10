@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001 /* CPUSchedulerUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001 /* CPUSchedulerUIApp.swift */; };
+		A10002 /* MainWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10002 /* MainWindowView.swift */; };
+		A10003 /* SimulatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10003 /* SimulatorView.swift */; };
+		A10004 /* AddProcessSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10004 /* AddProcessSheet.swift */; };
+		A10005 /* ScenarioPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10005 /* ScenarioPickerSheet.swift */; };
+		A10006 /* GanttChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10006 /* GanttChartView.swift */; };
+		A10007 /* MetricsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10007 /* MetricsGridView.swift */; };
+		A10008 /* ComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10008 /* ComparisonView.swift */; };
+		A10009 /* SystemMonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10009 /* SystemMonitorView.swift */; };
+		A10010 /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10010 /* EducationView.swift */; };
+		A10011 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10011 /* SettingsView.swift */; };
+		A10012 /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10012 /* GlassCard.swift */; };
+		A10013 /* MetricCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10013 /* MetricCard.swift */; };
+		A10014 /* ProcessChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10014 /* ProcessChip.swift */; };
+		A10015 /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10015 /* AnimatedButton.swift */; };
+		A10016 /* LoadingSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10016 /* LoadingSpinner.swift */; };
+		A10017 /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10017 /* Process.swift */; };
+		A10018 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10018 /* Algorithm.swift */; };
+		A10019 /* PerformanceMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10019 /* PerformanceMetrics.swift */; };
+		A10020 /* SchedulingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10020 /* SchedulingResult.swift */; };
+		A10021 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10021 /* Tutorial.swift */; };
+		A10022 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10022 /* AppColors.swift */; };
+		A10023 /* SimulatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10023 /* SimulatorViewModel.swift */; };
+		A10024 /* ComparisonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10024 /* ComparisonViewModel.swift */; };
+		A10025 /* MonitorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10025 /* MonitorViewModel.swift */; };
+		A10026 /* TutorialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10026 /* TutorialViewModel.swift */; };
+		A10027 /* MockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10027 /* MockDataService.swift */; };
+		A10028 /* PreferencesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10028 /* PreferencesService.swift */; };
+		A10029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10029 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10001 /* CPUSchedulerUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUSchedulerUIApp.swift; sourceTree = "<group>"; };
+		B10002 /* MainWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowView.swift; sourceTree = "<group>"; };
+		B10003 /* SimulatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorView.swift; sourceTree = "<group>"; };
+		B10004 /* AddProcessSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProcessSheet.swift; sourceTree = "<group>"; };
+		B10005 /* ScenarioPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenarioPickerSheet.swift; sourceTree = "<group>"; };
+		B10006 /* GanttChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GanttChartView.swift; sourceTree = "<group>"; };
+		B10007 /* MetricsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsGridView.swift; sourceTree = "<group>"; };
+		B10008 /* ComparisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonView.swift; sourceTree = "<group>"; };
+		B10009 /* SystemMonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMonitorView.swift; sourceTree = "<group>"; };
+		B10010 /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
+		B10011 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B10012 /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		B10013 /* MetricCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCard.swift; sourceTree = "<group>"; };
+		B10014 /* ProcessChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessChip.swift; sourceTree = "<group>"; };
+		B10015 /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
+		B10016 /* LoadingSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSpinner.swift; sourceTree = "<group>"; };
+		B10017 /* Process.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Process.swift; sourceTree = "<group>"; };
+		B10018 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		B10019 /* PerformanceMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceMetrics.swift; sourceTree = "<group>"; };
+		B10020 /* SchedulingResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingResult.swift; sourceTree = "<group>"; };
+		B10021 /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		B10022 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		B10023 /* SimulatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorViewModel.swift; sourceTree = "<group>"; };
+		B10024 /* ComparisonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonViewModel.swift; sourceTree = "<group>"; };
+		B10025 /* MonitorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorViewModel.swift; sourceTree = "<group>"; };
+		B10026 /* TutorialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewModel.swift; sourceTree = "<group>"; };
+		B10027 /* MockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataService.swift; sourceTree = "<group>"; };
+		B10028 /* PreferencesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesService.swift; sourceTree = "<group>"; };
+		B10029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10030 /* CPUSchedulerUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CPUSchedulerUI.entitlements; sourceTree = "<group>"; };
+		C10001 /* CPUSchedulerUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPUSchedulerUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E10001 = {
+			isa = PBXGroup;
+			children = (
+				E10002 /* CPUSchedulerUI */,
+				E10020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E10002 /* CPUSchedulerUI */ = {
+			isa = PBXGroup;
+			children = (
+				B10001 /* CPUSchedulerUIApp.swift */,
+				B10030 /* CPUSchedulerUI.entitlements */,
+				E10003 /* Models */,
+				E10004 /* ViewModels */,
+				E10005 /* Views */,
+				E10006 /* Services */,
+				E10019 /* Resources */,
+			);
+			path = CPUSchedulerUI;
+			sourceTree = "<group>";
+		};
+		E10003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10022 /* AppColors.swift */,
+				B10017 /* Process.swift */,
+				B10018 /* Algorithm.swift */,
+				B10019 /* PerformanceMetrics.swift */,
+				B10020 /* SchedulingResult.swift */,
+				B10021 /* Tutorial.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E10004 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B10023 /* SimulatorViewModel.swift */,
+				B10024 /* ComparisonViewModel.swift */,
+				B10025 /* MonitorViewModel.swift */,
+				B10026 /* TutorialViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E10005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B10002 /* MainWindowView.swift */,
+				E10007 /* Simulator */,
+				E10008 /* Visualization */,
+				E10009 /* Metrics */,
+				E10010 /* Comparison */,
+				E10011 /* Monitor */,
+				E10012 /* Education */,
+				E10013 /* Settings */,
+				E10014 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E10006 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B10027 /* MockDataService.swift */,
+				B10028 /* PreferencesService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E10007 /* Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				B10003 /* SimulatorView.swift */,
+				B10004 /* AddProcessSheet.swift */,
+				B10005 /* ScenarioPickerSheet.swift */,
+			);
+			path = Simulator;
+			sourceTree = "<group>";
+		};
+		E10008 /* Visualization */ = {
+			isa = PBXGroup;
+			children = (
+				B10006 /* GanttChartView.swift */,
+			);
+			path = Visualization;
+			sourceTree = "<group>";
+		};
+		E10009 /* Metrics */ = {
+			isa = PBXGroup;
+			children = (
+				B10007 /* MetricsGridView.swift */,
+			);
+			path = Metrics;
+			sourceTree = "<group>";
+		};
+		E10010 /* Comparison */ = {
+			isa = PBXGroup;
+			children = (
+				B10008 /* ComparisonView.swift */,
+			);
+			path = Comparison;
+			sourceTree = "<group>";
+		};
+		E10011 /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				B10009 /* SystemMonitorView.swift */,
+			);
+			path = Monitor;
+			sourceTree = "<group>";
+		};
+		E10012 /* Education */ = {
+			isa = PBXGroup;
+			children = (
+				B10010 /* EducationView.swift */,
+			);
+			path = Education;
+			sourceTree = "<group>";
+		};
+		E10013 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B10011 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E10014 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B10012 /* GlassCard.swift */,
+				B10013 /* MetricCard.swift */,
+				B10014 /* ProcessChip.swift */,
+				B10015 /* AnimatedButton.swift */,
+				B10016 /* LoadingSpinner.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E10019 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B10029 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E10020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C10001 /* CPUSchedulerUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10001 /* CPUSchedulerUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G10003 /* Build configuration list for PBXNativeTarget "CPUSchedulerUI" */;
+			buildPhases = (
+				F10002 /* Sources */,
+				D10001 /* Frameworks */,
+				F10003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPUSchedulerUI;
+			productName = CPUSchedulerUI;
+			productReference = C10001 /* CPUSchedulerUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		H10001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					F10001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = G10001 /* Build configuration list for PBXProject "CPUSchedulerUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E10001;
+			productRefGroup = E10020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10001 /* CPUSchedulerUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10029 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001 /* CPUSchedulerUIApp.swift in Sources */,
+				A10002 /* MainWindowView.swift in Sources */,
+				A10003 /* SimulatorView.swift in Sources */,
+				A10004 /* AddProcessSheet.swift in Sources */,
+				A10005 /* ScenarioPickerSheet.swift in Sources */,
+				A10006 /* GanttChartView.swift in Sources */,
+				A10007 /* MetricsGridView.swift in Sources */,
+				A10008 /* ComparisonView.swift in Sources */,
+				A10009 /* SystemMonitorView.swift in Sources */,
+				A10010 /* EducationView.swift in Sources */,
+				A10011 /* SettingsView.swift in Sources */,
+				A10012 /* GlassCard.swift in Sources */,
+				A10013 /* MetricCard.swift in Sources */,
+				A10014 /* ProcessChip.swift in Sources */,
+				A10015 /* AnimatedButton.swift in Sources */,
+				A10016 /* LoadingSpinner.swift in Sources */,
+				A10017 /* Process.swift in Sources */,
+				A10018 /* Algorithm.swift in Sources */,
+				A10019 /* PerformanceMetrics.swift in Sources */,
+				A10020 /* SchedulingResult.swift in Sources */,
+				A10021 /* Tutorial.swift in Sources */,
+				A10022 /* AppColors.swift in Sources */,
+				A10023 /* SimulatorViewModel.swift in Sources */,
+				A10024 /* ComparisonViewModel.swift in Sources */,
+				A10025 /* MonitorViewModel.swift in Sources */,
+				A10026 /* TutorialViewModel.swift in Sources */,
+				A10027 /* MockDataService.swift in Sources */,
+				A10028 /* PreferencesService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G10002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G10004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		G10005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CPUSchedulerUI/CPUSchedulerUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cpuscheduler.visualizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		G10006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CPUSchedulerUI/CPUSchedulerUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cpuscheduler.visualizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G10001 /* Build configuration list for PBXProject "CPUSchedulerUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G10002 /* Debug */,
+				G10004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G10003 /* Build configuration list for PBXNativeTarget "CPUSchedulerUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G10005 /* Debug */,
+				G10006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = H10001 /* Project object */;
+}
