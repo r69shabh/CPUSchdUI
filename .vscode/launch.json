@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:CPUSchedulerUI}",
+            "name": "Debug CPUSchedulerUI",
+            "target": "CPUSchedulerUI",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug CPUSchedulerUI"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:CPUSchedulerUI}",
+            "name": "Release CPUSchedulerUI",
+            "target": "CPUSchedulerUI",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release CPUSchedulerUI"
+        }
+    ]
+}
