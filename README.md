@@ -85,13 +85,3 @@ Both applications implement the following CPU scheduling algorithms:
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is part of an academic OS course assignment.
-
-## Authors
-
-- Native App Development ([@r69shabh](https://github.com/r69shabh))
-- Web App Development ([@Yash121l](https://github.com/Yash121l))
-
