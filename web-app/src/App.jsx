@@ -46,6 +46,10 @@ function App() {
   return (
     <Router>
       <div className="app-shell relative flex h-screen min-h-screen flex-col overflow-hidden text-foreground selection:bg-primary/20 selection:text-primary">
+        <div className="bg-yellow-500/20 border-b border-yellow-500/50 text-yellow-200 px-4 py-2 text-center text-sm font-medium z-50 flex items-center justify-center gap-2">
+          <span>⚠️</span>
+          <span>This is just for demo purposes and doesn't use real data. For real data, please use the macOS application.</span>
+        </div>
         <Header />
         <div className="border-t border-border/70" />
         <main className="relative z-10 min-h-0 min-w-0 flex-1 overflow-hidden px-3 py-3 md:px-4 md:py-4">
